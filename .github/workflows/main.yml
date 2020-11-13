@@ -20,6 +20,8 @@ jobs:
     strategy:
       matrix:
         node-verison: [12.x]
+        ci_node_total: [2]
+        ci_node_index: [0, 1]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
